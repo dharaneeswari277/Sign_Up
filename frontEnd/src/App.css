@@ -1,0 +1,94 @@
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  border: 2px solid black;
+  width:1530px;
+}
+
+.grid-item {
+  font-size: 30px;
+  text-align: left;
+  width:600px;
+}
+
+.image{
+  width: 500px;
+  height: 685px;
+}
+input{
+  width: 80%;
+  padding: 20px;
+  margin-bottom: 20px;
+  height:50px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #0b0ea3;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  width: 30%;
+  cursor: pointer;
+  border: 1px solid #ccc;
+}
+button:hover {
+  background-color: #0056b3;
+}
+.error-message {
+  color: red;
+}
+.hide{
+  background-color: white;
+  border: 1px solid white;
+  color: black;
+  margin-left: 80px;
+}
+
+.hide:hover {
+  background-color: white;
+}
+
+.custom-snackbar {
+  background-color: white; 
+  align-items: center;
+  color: black;
+  width: 300px;
+  height: 40px;
+  position: fixed;
+  top: 20px;
+  right: 20px; 
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.css-1eqdgzv-MuiPaper-root-MuiSnackbarContent-root {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+.appbar{
+  height: 6rem;
+  width: 1530px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top:0;
+  z-index: 3;
+  background-color: rgb(8, 241, 140);
+}
+
+a:link{
+  padding: 30px;
+  color: black;
+  text-decoration: none;
+  margin: 20px;
+}
